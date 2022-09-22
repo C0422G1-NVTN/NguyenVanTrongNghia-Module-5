@@ -1,0 +1,8 @@
+<label >Số thứ nhất</label>
+<input type="text" [(ngModel)]="number1">
+<label >Toán tử</label>
+<input type="text" [(ngModel)]="operator">
+<label >Số thứ hai</label>
+<input type="text" [(ngModel)]="number2">
+<button (click)="calculation()">=</button>
+<span>{{result}}</span>
