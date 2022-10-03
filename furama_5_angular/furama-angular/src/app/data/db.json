@@ -1,0 +1,273 @@
+{
+  "facilityType": [
+    {
+      "id": 1,
+      "name": "Villa"
+    },
+    {
+      "id": 2,
+      "name": "House"
+    },
+    {
+      "id": 3,
+      "name": "Room"
+    }
+  ],
+  "rentType": [
+    {
+      "id": 1,
+      "name": "Year"
+    },
+    {
+      "id": 2,
+      "name": "Month"
+    },
+    {
+      "id": 3,
+      "name": "Days"
+    },
+    {
+      "id": 4,
+      "name": "Hour"
+    }
+  ],
+  "facility": [
+    {
+      "id": 5,
+      "name": "asdsa",
+      "area": "sad",
+      "cost": "sad",
+      "maxPeople": "sadsa",
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Suite-Feature-370x239.jpg",
+      "standardRoom": "asd",
+      "descriptionOther": "sad",
+      "poolArea": "asd",
+      "numberFloor": "asd",
+      "facilityFree": "",
+      "rentType": {
+        "id": 1,
+        "name": "Year"
+      },
+      "facilityType": {
+        "id": 1,
+        "name": "Villa"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Phòng tầng 10",
+      "area": "100",
+      "cost": "1500000",
+      "maxPeople": "12",
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Suite-Feature-370x239.jpg",
+      "standardRoom": "11",
+      "descriptionOther": "33",
+      "poolArea": "",
+      "numberFloor": "33",
+      "facilityFree": "Ăn sáng 111",
+      "rentType": {
+        "id": 2,
+        "name": "Month"
+      },
+      "facilityType": {
+        "id": 2,
+        "name": "House"
+      }
+    },
+    {
+      "id": 7,
+      "name": "View Biển",
+      "area": "123",
+      "cost": "12321",
+      "maxPeople": "123",
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Suite-Feature-370x239.jpg",
+      "standardRoom": "12",
+      "descriptionOther": "12",
+      "poolArea": "12",
+      "numberFloor": "12",
+      "facilityFree": "121212",
+      "rentType": {
+        "id": 2,
+        "name": "Month"
+      },
+      "facilityType": {
+        "id": 3,
+        "name": "Room"
+      }
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "nameCustomerType": "Diamond"
+    },
+    {
+      "id": 2,
+      "nameCustomerType": "Gold"
+    },
+    {
+      "id": 3,
+      "nameCustomerType": "Silver"
+    },
+    {
+      "id": 4,
+      "nameCustomerType": "Member"
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "Nghia",
+      "dateOfBirth": "2022-08-08",
+      "gender": "Nam",
+      "idCard": "2272727277",
+      "phoneNumber": 84171772122,
+      "email": "wewq@d.com",
+      "address": "ABC",
+      "customerType": {
+        "id": 1,
+        "nameCustomerType": "Diamond"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Tài",
+      "dateOfBirth": "2022-08-30",
+      "gender": "Nam",
+      "idCard": "1212",
+      "phoneNumber": "2121",
+      "email": "2121",
+      "address": "2121",
+      "customerType": {
+        "id": 3,
+        "nameCustomerType": "Silver"
+      }
+    },
+    {
+      "id": 5,
+      "name": "skjdhjhsad",
+      "dateOfBirth": "2022-09-02",
+      "gender": "Nữ",
+      "idCard": "ádsa",
+      "phoneNumber": "sad",
+      "email": "ád",
+      "address": "ád",
+      "customerType": {
+        "id": 2,
+        "nameCustomerType": "Gold"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Nhiên bồ a Phú",
+      "dateOfBirth": "2022-09-07",
+      "gender": "Nữ",
+      "idCard": "12321",
+      "phoneNumber": "21321",
+      "email": "2131",
+      "address": "21331",
+      "customerType": {
+        "id": 1,
+        "nameCustomerType": "Diamond"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Nguyen Nghia",
+      "dateOfBirth": "2022-10-12",
+      "gender": "Nữ",
+      "idCard": "567657567657",
+      "phoneNumber": "0914303739",
+      "email": "nghiapraodn@yahoo.com",
+      "address": "asdasdsadasdsadsa",
+      "customerType": {
+        "id": 2,
+        "nameCustomerType": "Gold"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Nguyen Nghia",
+      "dateOfBirth": "2022-10-12",
+      "gender": "Nữ",
+      "idCard": "567657567657",
+      "phoneNumber": "0914303739",
+      "email": "nghiapraodn@yahoo.com",
+      "address": "asdasdsadasdsadsa",
+      "customerType": {
+        "id": 2,
+        "nameCustomerType": "Gold"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Nguyen Nghia",
+      "dateOfBirth": "2022-10-12",
+      "gender": "Nữ",
+      "idCard": "567657567657",
+      "phoneNumber": "0914303739",
+      "email": "nghiapraodn@yahoo.com",
+      "address": "asdasdsadasdsadsa",
+      "customerType": {
+        "id": 2,
+        "nameCustomerType": "Gold"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Nguyen Nghia",
+      "dateOfBirth": "2022-10-12",
+      "gender": "Nữ",
+      "idCard": "567657567657",
+      "phoneNumber": "0914303739",
+      "email": "nghiapraodn@yahoo.com",
+      "address": "asdasdsadasdsadsa",
+      "customerType": {
+        "id": 2,
+        "nameCustomerType": "Gold"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Nguyen Nghia",
+      "dateOfBirth": "2022-09-26",
+      "gender": "Nam",
+      "idCard": "a1212221",
+      "phoneNumber": "0914303739",
+      "email": "nghiapraodn@yahoo.com",
+      "address": "asdasdsadasdsadsa",
+      "customerType": {
+        "id": 2,
+        "nameCustomerType": "Gold"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Nguyen Nghia",
+      "dateOfBirth": "2022-09-26",
+      "gender": "Nam",
+      "idCard": "a1212221",
+      "phoneNumber": "0914303739",
+      "email": "nghiapraodn@yahoo.com",
+      "address": "asdasdsadasdsadsa",
+      "customerType": {
+        "id": 1,
+        "nameCustomerType": "Diamond"
+      }
+    },
+    {
+      "id": 29,
+      "name": " Đạt Văn Tây",
+      "dateOfBirth": "2022-09-27",
+      "gender": "Nam",
+      "idCard": "333333333",
+      "phoneNumber": "444444444",
+      "email": "nghianf@gmail.com",
+      "address": "21qwdaszdsd",
+      "customerType": {
+        "id": 2,
+        "nameCustomerType": "Gold"
+      }
+    }
+  ]
+}

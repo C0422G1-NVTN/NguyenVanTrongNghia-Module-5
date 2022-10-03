@@ -1,0 +1,136 @@
+<div class="container-fluid" style="height: 500px;">
+  <div class="container-fluid mt-3" style="overflow: auto">
+    <table class="table table-hover">
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>Date Start</th>
+        <th>Date End</th>
+        <th>Deposit</th>
+        <th>Customer</th>
+        <th>Employee</th>
+        <th>Facility</th>
+        <th>Option</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let temp of contractList">
+        <td>{{temp.id}}</td>
+        <td>{{temp.startDate}}</td>
+        <td>{{temp.endDate}}</td>
+        <td>{{temp.deposit}}</td>
+        <td>{{temp.employee.nameEmployee}}</td>
+        <td>{{temp.customer.nameCustomer}}</td>
+        <td>{{temp.facility.nameFacility}}</td>
+
+        <td>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                  data-bs-target="#exampleModalContractDetail">
+            +
+          </button>
+          <a class="btn btn-primary">
+            danh sach di kem
+          </a>
+        </td>
+        <!-- Modal Contract Detail-->
+        <div class="modal fade" id="exampleModalContractDetail" tabindex="-1" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabelContractDetail">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!--                <input type="text" hidden th:value="${contractId}" id="contractId">-->
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Start Date</label>
+                  <div class="col-sm-10">
+                    <input type="date" class="form-control" id="starDate">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">End Date </label>
+                  <div class="col-sm-10">
+                    <input type="date" class="form-control" id="endDate">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Deposit</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="deposit">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Total</label>
+                  <div class="col-sm-10">
+                    <input type="text" disabled class="form-control" id="total">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Customer Name</label>
+                  <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example" id="customerId">
+                      <option></option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Service</label>
+                  <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example" id="facilityId">
+                      <option></option>
+                    </select>
+                  </div>
+                </div>
+                <!--                                <div class="row mb-3">-->
+                <!--                                    <label class="col-sm-2 col-form-label">Dich vu dinh kem</label>-->
+                <!--                                    <div class="col-sm-10">-->
+                <!--                                        <button class="btn btn-primary" onclick="btnAttachFacility()">+</button>-->
+
+                <!--                                        <table class="table" id="attachFacility">-->
+                <!--                                            <thead>-->
+                <!--                                            <tr>-->
+                <!--                                                <th>No</th>-->
+                <!--                                                <th>Attach Facility Name</th>-->
+                <!--                                                <th>Cost</th>-->
+                <!--                                                <th>Attach Unit</th>-->
+                <!--                                                <th>Attach Status</th>-->
+                <!--                                                <th>Quantity</th>-->
+                <!--                                            </tr>-->
+                <!--                                            </thead>-->
+                <!--                                            <tbody>-->
+                <!--                                            <tr>-->
+                <!--                                                <td></td>-->
+                <!--                                                <td hidden>-->
+                <!--                                                    <input type="text" name="attachId">-->
+                <!--                                                </td>-->
+                <!--                                                <td></td>-->
+                <!--                                                <td></td>-->
+                <!--                                                <td hidden>-->
+                <!--                                                    <input type="text">-->
+                <!--                                                </td>-->
+                <!--                                                <td></td>-->
+                <!--                                                <td></td>-->
+                <!--                                                <td>-->
+                <!--                                                    <input type="number" class="form-control quantity" name="quantity">-->
+                <!--                                                </td>-->
+                <!--                                            </tr>-->
+                <!--                                            </tbody>-->
+                <!--                                        </table>-->
+                <!--                                    </div>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" onclick="addContractDetail()">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </tbody>
+    </table>
+  </div>
+</div>

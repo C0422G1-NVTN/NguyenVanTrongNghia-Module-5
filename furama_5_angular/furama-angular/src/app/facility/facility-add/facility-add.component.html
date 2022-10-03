@@ -1,0 +1,135 @@
+<div class="body-facility">
+  <app-furama-header></app-furama-header>
+  <p class="text-success" th:text="${messCreate}"></p>
+  <div class="d-flex justify-content-center">
+    <form action="/facility/addFacility" method="post" class="text-info fw-bold bg-gradient w-75 p-5 border-5"
+          th:object="${facilityDto}">
+      <select class="form-select-lg w-50 m-auto mt-3 border-success rounded-pill" th:field="*{facilityType}"
+              id="addSelect"
+              onchange="displayInputAdd()">
+        <option th:each="facilityType:${facilityTypeList}" th:value="${facilityType.facilityTypeId}"
+                th:text="${facilityType.facilityTypeName}"></option>
+      </select>
+      <div class="row">
+        <div class="col-md-6 col-sm-12 ">
+          <div class="mb-3">
+            <label for="tenDv" class="form-label ">1. Nhập Tên dịch vụ</label>
+            <input type="text" class="form-control" id="tenDv" th:field="*{facilityName}"
+                   placeholder="Nhập Tên dịch vụ">
+            <span class="text-danger" th:errors="*{facilityName}"></span>
+          </div>
+          <div class="mb-3">
+            <label for="dienTich" class="form-label ">2. Nhập Diện tích sử dụng</label>
+            <input type="number" class="form-control" id="dienTich" th:field="*{area}"
+                   placeholder="Nhập Diện tích">
+            <span class="text-danger" th:errors="*{area}"></span>
+          </div>
+          <div class="mb-3">
+            <label for="chiPhiThue" class="form-label ">3. Nhập chi phí thuê</label>
+            <input type="number" class="form-control" id="chiPhiThue" th:field="*{cost}"
+                   placeholder="Nhập chi phí thuê">
+            <span class="text-danger" th:errors="*{cost}"></span>
+          </div>
+          <div class="mb-3">
+            <label for="soNguoiToiDa" class="form-label ">4. Nhập số người tối đa</label>
+            <input type="number" class="form-control" id="soNguoiToiDa" th:field="*{maxPeople}"
+                   placeholder="4. Nhập số người tối đa">
+          </div>
+          <div class="mb-3">
+            <label for="soNguoiToiDa" class="form-label">5. Nhập kiểu thuê</label>
+            <select name="kieuThue" id="kieuThue" th:field="*{rentType}" class="form-control">
+              <option th:each="rentType:${rentTypeList}" th:value="${rentType.rentTypeId}"
+                      th:text="${rentType.rentTypeName}"></option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 ">
+          <div class="mb-3 " style="display: none" id="divTieuChuanPhong">
+            <label for="tieuChuanPhong" class="form-label ">Nhập Tiêu chuẩn phòng</label>
+            <input type="text" class="form-control" id="tieuChuanPhong" th:field="*{standardRoom}"
+                   placeholder="Nhập Tiêu chuẩn phòng">
+          </div>
+          <div class="mb-3 " style="display: none" id="divTienNghiKhac">
+            <label for="tienNghiKhac" class="form-label ">Nhập Mô tả tiện nghi khác</label>
+            <input type="text" class="form-control" id="tienNghiKhac" th:field="*{descriptionOtherConvenience}"
+                   placeholder="Nhập Mô tả tiện nghi khác">
+          </div>
+          <div class="mb-3 " style="display: none" id="divDienTichHoBoi">
+            <label for="dienTichHoBoi" class="form-label ">Nhập Diện tích hồ bơi</label>
+            <input type="number" class="form-control" th:field="*{poolArea}"
+                   placeholder="Nhập Diện tích hồ bơi" id="dienTichHoBoi">
+            <span class="text-danger" th:errors="*{poolArea}"></span>
+          </div>
+          <div class="mb-3 " style="display: none" id="divSoTang">
+            <label for="soTang" class="form-label ">Nhập Số tầng</label>
+            <input type="number" class="form-control" th:field="*{numberOfFloor}"
+                   placeholder="Nhập Số tầng" id="soTang">
+            <span class="text-danger" th:errors="*{numberOfFloor}"></span>
+          </div>
+          <div class="mb-3 " style="display: none" id="divDichVuMienPhi">
+            <label for="dichVuMienPhi" class="form-label ">Nhập dịch vụ miễn phí đi kèm</label>
+            <input type="text" class="form-control" th:field="*{facilityFree}"
+                   placeholder="Nhập dịch vụ miễn phí đi kèm" id="dichVuMienPhi">
+          </div>
+        </div>
+      </div>
+      <div>
+        <a class="btn btn-primary" href="/facility">Quay lại</a>
+        <button type="submit" id="add" class="btn btn-success">Thêm mới</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  displayInputAdd()
+
+  function displayInputAdd() {
+    let value = document.getElementById("addSelect").value;
+    let divTieuChuanPhong = document.getElementById("divTieuChuanPhong");
+    let divTienNghiKhac = document.getElementById("divTienNghiKhac");
+    let divDienTichHoBoi = document.getElementById("divDienTichHoBoi");
+    let divSoTang = document.getElementById("divSoTang");
+    let divDichVuMienPhi = document.getElementById("divDichVuMienPhi");
+    switch (value) {
+      case "none":
+        divTieuChuanPhong.style.display = "none"
+        divTienNghiKhac.style.display = "none"
+        divDienTichHoBoi.style.display = "none"
+        document.getElementById("dienTichHoBoi").value = 0;
+        divSoTang.style.display = "none"
+        document.getElementById("soTang").value = 0;
+        divDichVuMienPhi.style.display = "none"
+        console.log(0)
+        break;
+      case "1":
+        divTieuChuanPhong.style.display = "block"
+        divTienNghiKhac.style.display = "block"
+        divDienTichHoBoi.style.display = "block"
+        divSoTang.style.display = "block"
+        divDichVuMienPhi.style.display = "none"
+        console.log(2)
+        break;
+      case "2":
+        divTieuChuanPhong.style.display = "block"
+        divTienNghiKhac.style.display = "block"
+        divDienTichHoBoi.style.display = "none"
+        document.getElementById("dienTichHoBoi").value = 0;
+        divSoTang.style.display = "block"
+        divDichVuMienPhi.style.display = "none"
+        console.log(1)
+        break;
+      case "3":
+        divTieuChuanPhong.style.display = "none"
+        divTienNghiKhac.style.display = "none"
+        divDienTichHoBoi.style.display = "none"
+        document.getElementById("dienTichHoBoi").value = 0;
+        divSoTang.style.display = "none"
+        document.getElementById("soTang").value = 0;
+        divDichVuMienPhi.style.display = "block"
+        console.log(3)
+        break;
+    }
+  }
+</script>
+<app-furama-footer></app-furama-footer>
