@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Nghia",
+    "dateOfBirth": "2022-08-08",
+    "gender": "Nam",
+    "idCard": "2272727277",
+    "phoneNumber": 84171772122,
+    "email": "wewq@d.com",
+    "address": "ABC",
+    "customerType": {
+      "id": 1,
+      "nameCustomerType": "Diamond"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Tài",
+    "dateOfBirth": "2022-08-30",
+    "gender": "Nam",
+    "idCard": "1212",
+    "phoneNumber": "2121",
+    "email": "2121",
+    "address": "2121",
+    "customerType": {
+      "id": 3,
+      "nameCustomerType": "Silver"
+    }
+  },
+  {
+    "id": 5,
+    "name": "skjdhjhsad",
+    "dateOfBirth": "2022-09-02",
+    "gender": "Nữ",
+    "idCard": "ádsa",
+    "phoneNumber": "sad",
+    "email": "ád",
+    "address": "ád",
+    "customerType": {
+      "id": 2,
+      "nameCustomerType": "Gold"
+    }
+  }
