@@ -1,0 +1,46 @@
+{
+  "houseCar": [
+    {
+      "car": {
+        "id": 1,
+        "idCard": "21323",
+        "typeCar": "Giường nằm"
+      },
+      "id": 1,
+      "nameHouseCar": "mAI lINH",
+      "addressCome": "Nghe An",
+      "addressBack": "Ha Tinh",
+      "phone": "232142342",
+      "email": "232142342",
+      "timeCome": "2342342",
+      "timeBack": "23423423"
+    },
+    {
+      "car": {
+        "id": 2,
+        "idCard": "1222",
+        "typeCar": "Ghế ngồi"
+      },
+      "id": 2,
+      "nameHouseCar": "tien sa",
+      "addressCome": "nha",
+      "addressBack": "nha",
+      "phone": "123132",
+      "email": "123132",
+      "timeCome": "12",
+      "timeBack": "12"
+    }
+  ],
+  "car": [
+    {
+      "id": 1,
+      "idCard": "1231",
+      "typeCar": "Giường nằm"
+    },
+    {
+      "id": 2,
+      "idCard": "1222",
+      "typeCar": "Ghế ngồi"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<div class="body-customer">
+
+  <div class="container d-flex justify-content-md-center mb-5" style="margin-top: 20px">
+    <div class="row" id="form">
+      <div class="col-md-12 bg-gradient info text-light">
+        <form [formGroup]="houseCarForm" (submit)="editHouseCar()">
+          <fieldset>
+            <legend style="text-align: center">EDIT HOUSE CAR</legend>
+            <table>
+              <tr>
+                <td><label class="text-light font-weight-bold">Name</label></td>
+                <td><input class="form-control " type="text" formControlName="nameHouseCar"></td>
+              </tr>
+
+              <tr>
+                <td><label class="text-light font-weight-bold">Address Come</label></td>
+                <td>
+                  <select class="form-select" formControlName="trip" name="trip" [compareWith]="compareCar">
+                    <option *ngFor="let temp of tripList" [ngValue]="temp">{{temp.addressCome}}</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <td><label class="text-light font-weight-bold">Phone Number</label></td>
+                <td><input class="form-control " type="text" formControlName="phone"></td>
+              </tr>
+              <tr>
+                <td><label class="text-light font-weight-bold">Email</label></td>
+                <td><input class="form-control " type="text" formControlName="email"></td>
+              </tr>
+
+              <tr>
+                <td><label class="text-light font-weight-bold">Type Car</label></td>
+                <td>
+                  <select class="form-select" formControlName="car" name="car" [compareWith]="compareCar">
+                    <option *ngFor="let temp of carList" [ngValue]="temp">{{temp.typeCar}}</option>
+                  </select>
+                </td>
+              </tr>
+
+
+
+              <tr>
+                <a [routerLink]="['']">
+                  <button class="btn btn-info">BACK</button>
+                </a>
+                <input class="btn btn-success" type="submit" value="Save" >
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
