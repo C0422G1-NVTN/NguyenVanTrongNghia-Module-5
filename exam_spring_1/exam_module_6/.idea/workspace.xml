@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b81f42b-9c07-49f3-af2d-ae06a508fc40" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Camdo/src/main/java/com/camdo/controller/RestCustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Camdo/src/main/java/com/camdo/model/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Camdo/src/main/java/com/camdo/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Camdo/src/main/java/com/camdo/repository/ICustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Camdo/src/main/java/com/camdo/service/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Camdo/src/main/java/com/camdo/service/impl/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/_custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/bootstrap-datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/fancybox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/jquery.timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/fontawesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/fontawesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/fontawesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/fontawesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/fontawesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/fontawesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/ionicons/cheatsheet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/ionicons/css/ionicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/ionicons/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/ionicons/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/ionicons/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/ionicons/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/fonts/ionicons/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/about_feature_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/den-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/den-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/den-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/den-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/den-vau-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/den-vau-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/den-vau.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/food-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/furama-da-nang-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/hero_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/hero_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/hero_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/hero_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/image_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/image_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/image_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/img_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/img_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/person_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/person_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/person_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/person_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/slider-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/slider-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/slider-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/slider-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/slider-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/images/slider-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/jquery-migrate-3.0.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/jquery.fancybox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/jquery.timepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study 5/scss/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5/.idea/exam_module_5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5/exam-angular/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5/exam-angular/src/app/data/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5/exam-angular/src/app/service/car.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5/exam-angular/src/app/user-edit/user-edit.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5/exam-angular/src/app/user-edit/user-edit.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5/exam-angular/src/app/user-edit/user-edit.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5/exam-angular/src/app/user-edit/user-edit.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/controller/RestCarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/controller/RestHouseCarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/controller/RestTripController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/model/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/model/HouseCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/model/Trip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/repository/ICarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/repository/IHouseCarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/repository/ITripRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/service/ICarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/service/IHouseCarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/service/ITripService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/service/impl/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/service/impl/HouseCarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam_module_5_spring/src/main/java/com/exam_module_5/service/impl/TripService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5/add-customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5/add-customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5/add-facility.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5/add-facility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5/edit-customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5/edit-customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5/edit-facility.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5/edit-facility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5/list-customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5/list-customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5/list-facility.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5/list-facility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5_angular/câu lệnh angular.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5_angular/câu lệnh angular.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/customer/customer-add/customer-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/customer/customer-add/customer-add.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/customer/customer-edit/customer-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/customer/customer-edit/customer-edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/customer/customer-list/customer-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/customer/customer-list/customer-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/customer/customer-list/customer-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/customer/customer-list/customer-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/customer/customer-list/customer-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/customer/customer-list/customer-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/data/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/data/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/service/customer.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_5_angular/furama-angular/src/app/service/customer.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/cam_do_webstorm/prototype/list-customer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/cam_do_webstorm/prototype/list-customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop/.idea/pawn_shop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular/.idea/pawn_shop_angular.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/customer-management/customer-list/customer-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/customer-management/customer-list/customer-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/customer-management/customer-list/customer-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/customer-management/customer-list/customer-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/customer-management/customer-management.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/customer-management/customer-management.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/customer-management/customer-management.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/customer-management/customer-management.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/employee-information/employee-information.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/employee-information/employee-information.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/employee-information/employee-information.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/employee-information/employee-information.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/employee-management/employee-management.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/employee-management/employee-management.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/employee-management/employee-management.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/employee-management/employee-management.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/function.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/individual-information/individual-information.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/individual-information/individual-information.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/individual-information/individual-information.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/individual-information/individual-information.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/liquidation/liquidation.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/liquidation/liquidation.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/liquidation/liquidation.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/liquidation/liquidation.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/news/news.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/news/news.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/news/news.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/news/news.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/pawn-contract/pawn-contract.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/pawn-contract/pawn-contract.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/pawn-contract/pawn-contract.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/pawn-contract/pawn-contract.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/return-item/return-item.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/return-item/return-item.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/return-item/return-item.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/return-item/return-item.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/finance/finance.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/finance/finance.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/finance/finance.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/finance/finance.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/pawn-item-list/pawn-item-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/pawn-item-list/pawn-item-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/pawn-item-list/pawn-item-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/pawn-item-list/pawn-item-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/profit-statistics/profit-statistics.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/profit-statistics/profit-statistics.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/profit-statistics/profit-statistics.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/profit-statistics/profit-statistics.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/store-information.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/store-information.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/store-information.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/store-information.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/top-ten-transaction/top-ten-transaction.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/top-ten-transaction/top-ten-transaction.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/top-ten-transaction/top-ten-transaction.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/top-ten-transaction/top-ten-transaction.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/transaction-history/transaction-history.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/transaction-history/transaction-history.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/transaction-history/transaction-history.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/function/store-information/transaction-history/transaction-history.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/layout/layout.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/login/login.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/model/address/address.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/model/address/city.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/model/address/district.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/model/contract/contract.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/model/customer/customer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/model/employee/employee.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/model/finance/finance.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/model/news/news.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/model/pawn/pawn-img.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/model/pawn/pawn-item.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/model/pawn/pawn-type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/app/service/customer.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_back_up/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/customer-management/customer-list/customer-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/customer-management/customer-list/customer-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/customer-management/customer-list/customer-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/customer-management/customer-list/customer-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/customer-management/customer-management.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/customer-management/customer-management.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/customer-management/customer-management.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/customer-management/customer-management.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/employee-information/employee-information.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/employee-information/employee-information.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/employee-information/employee-information.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/employee-information/employee-information.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/employee-management/employee-management.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/employee-management/employee-management.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/employee-management/employee-management.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/employee-management/employee-management.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/function.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/individual-information/individual-information.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/individual-information/individual-information.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/individual-information/individual-information.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/individual-information/individual-information.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/liquidation/liquidation.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/liquidation/liquidation.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/liquidation/liquidation.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/liquidation/liquidation.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/news/news.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/news/news.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/news/news.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/news/news.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/pawn-contract/pawn-contract.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/pawn-contract/pawn-contract.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/pawn-contract/pawn-contract.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/pawn-contract/pawn-contract.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/return-item/return-item.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/return-item/return-item.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/return-item/return-item.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/return-item/return-item.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/finance/finance.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/finance/finance.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/finance/finance.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/finance/finance.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/pawn-item-list/pawn-item-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/pawn-item-list/pawn-item-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/pawn-item-list/pawn-item-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/pawn-item-list/pawn-item-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/profit-statistics/profit-statistics.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/profit-statistics/profit-statistics.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/profit-statistics/profit-statistics.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/profit-statistics/profit-statistics.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/store-information.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/store-information.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/store-information.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/store-information.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/top-ten-transaction/top-ten-transaction.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/top-ten-transaction/top-ten-transaction.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/top-ten-transaction/top-ten-transaction.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/top-ten-transaction/top-ten-transaction.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/transaction-history/transaction-history.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/transaction-history/transaction-history.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/transaction-history/transaction-history.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/function/store-information/transaction-history/transaction-history.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/layout/layout.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/login/login.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/model/address/address.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/model/address/city.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/model/address/district.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/model/contract/contract.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/model/customer/customer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/model/employee/employee.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/model/finance/finance.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/model/news/news.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/model/pawn/pawn-img.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/model/pawn/pawn-item.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/model/pawn/pawn-type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/app/service/customer.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_angular_sub/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_spring/.idea/pawn_shop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_spring_fix.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_spring_fix/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_spring_fix/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_spring_fix/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_spring_fix/.idea/pawn_shop_spring_fix.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_spring_fix/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_spring_fix/pawn-shop-api" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pawn_shop_sub/.idea/pawn_shop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/PawnShopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/config/MailConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/controller/ContractRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/controller/CustomerRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/controller/EmployeeRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/controller/MailSenderRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/controller/PawnImgRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/controller/PawnItemRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/controller/PawnTypeRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/controller/SecurityRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/ContractDtoHd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/ContractUpdateDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/CustomerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/ICustomerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/PawnItemDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/projection/ContractDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/projection/MailAutoProjection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/quick_register/QuickAddressDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/quick_register/QuickContractDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/quick_register/QuickCustomerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/quick_register/QuickDistrictDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/quick_register/QuickPawnItemDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/dto/quick_register/QuickPawnTypeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/email/MailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/email/ThymeleafService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/jwt/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/jwt/JwtUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/address/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/address/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/address/District.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/contract/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/customer/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/employee/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/finance/Finance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/login/AppRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/login/AppUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/login/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/login/LoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/login/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/login/UserRoleKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/news/News.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/pawn/PawnImg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/pawn/PawnItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/model/pawn/PawnType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/IAddressRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/IAppRoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/IAppUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/ICityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/IContractRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/ICustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/IDistrictRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/IEmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/IFinanceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/INewsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/IPawItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/IPawnImgRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/IPawnTypeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/repository/IUserRoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/IAddressService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/IAppRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/IAppUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/ICityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/IContractService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/IDistrictService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/IEmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/IFinanceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/INewsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/IPawItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/IPawnImgService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/IPawnTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/ISendMailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/IUserRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/AddressService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/AppRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/AppUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/CityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/ContractService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/DistrictService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/FinanceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/NewsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/PawItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/PawnImgService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/PawnTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/SendMailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/UserDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/java/com/pawn_shop/service/impl/UserRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/main/resources/template/mail-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/test/java/com/pawn_shop/PawnShopApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/test/java/com/pawn_shop/PawnShopRestController_deleteCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/test/java/com/pawn_shop/PawnShopRestController_getListCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/test/java/com/pawn_shop/controller/EmployeeRestController_resetPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/test/java/com/pawn_shop/controller/SecurityRestController_authenticateUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project_pawn_shop/pawn-shop/src/test/java/com/pawn_shop/controller/SecurityRestController_getResetEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/product/product-create/product-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/product/product-create/product-create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/product/product-create/product-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/product/product-create/product-create.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/product/product-edit/product-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/product/product-edit/product-edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/product/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/product/product-list/product-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/product/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/product/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/service/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../s7_service_route/route-service/src/app/service/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s7_service_route/route-service/src/data/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../s7_service_route/route-service/src/data/db.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="2GuKYpXeLTVyeYifxs2wdqxjXlj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RunManager">
+    <configuration name="ExamModule6Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="exam_module_6.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exam_module_6.ExamModule6Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b81f42b-9c07-49f3-af2d-ae06a508fc40" name="Changes" comment="" />
+      <created>1667233079571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667233079571</updated>
+      <workItem from="1667233082035" duration="448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
