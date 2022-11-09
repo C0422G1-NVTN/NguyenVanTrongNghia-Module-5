@@ -1,0 +1,24 @@
+
+.body-book{
+  background-image: url("src/assets/images/book.jpg");
+  height: 100vh;
+
+}
+label{
+  color: snow;
+  font-family: "Berlin Sans FB";
+}
+h1 {
+
+  font-family: "Berlin Sans FB";
+}
+form{
+  background-color: white;opacity: 90%;
+  border-radius: 10px;
+}
+label{
+  color: black;
+}
+input{
+
+}

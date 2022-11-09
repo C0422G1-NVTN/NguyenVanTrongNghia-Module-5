@@ -1,0 +1,11 @@
+h1{
+  font-family: Algerian;
+}
+a{
+  text-decoration: none;
+}
+.menu-book{
+  background-color: gainsboro;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
