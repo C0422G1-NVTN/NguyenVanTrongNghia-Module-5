@@ -1,5 +1,5 @@
 
-header{
+.body-book{
 background-image: url("../images/book.jpg");
 height: 100vh;
 
@@ -9,6 +9,16 @@ label{
     font-family: "Berlin Sans FB";
 }
 h1 {
-   color: white;
+
     font-family: "Berlin Sans FB";
+}
+form{
+    background-color: white;opacity: 90%;
+    border-radius: 10px;
+}
+label{
+color: black;
+}
+input{
+
 }
