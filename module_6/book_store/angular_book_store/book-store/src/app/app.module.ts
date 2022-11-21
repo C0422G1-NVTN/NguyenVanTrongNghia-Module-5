@@ -7,6 +7,12 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
 import { CardDetailComponent } from './card-detail/card-detail.component';
+import {HttpClientModule} from "@angular/common/http";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {ToastrModule} from "ngx-toastr";
+// @ts-ignore
+import {NgxUiLoaderHttpModule} from "ngx-ui-loader";
+import {NgxPaginationModule} from "ngx-pagination";
 
 @NgModule({
   declarations: [
@@ -18,7 +24,23 @@ import { CardDetailComponent } from './card-detail/card-detail.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    ReactiveFormsModule,
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    ToastrModule.forRoot(
+      {
+        timeOut: 2000,
+        closeButton: true,
+        progressBar: true,
+        positionClass: 'toast-top-center',
+        preventDuplicates: true
+      }
+    ),
+    NgxPaginationModule,
+    NgxUiLoaderHttpModule.forRoot({
+      showForeground: true
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,6 +8,7 @@ class SpringBookStoreApplicationTests {
 
     @Test
     void contextLoads() {
+
     }
 
 }
