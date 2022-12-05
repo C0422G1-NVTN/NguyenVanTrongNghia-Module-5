@@ -3,6 +3,7 @@ package com.spring_book_store.jwt;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
@@ -50,4 +51,6 @@ public class JwtTokenUtil implements Serializable {
         }
         return false;
     }
+
+
 }

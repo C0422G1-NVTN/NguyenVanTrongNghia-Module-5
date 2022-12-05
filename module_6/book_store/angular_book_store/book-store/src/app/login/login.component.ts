@@ -68,7 +68,6 @@ export class LoginComponent implements OnInit {
         this.shareService.changeLoginStatus(true);
       },
       err => {
-        console.log(err)
         this.authService.isLoggedIn = false;
         Swal.fire('Đăng nhập thất bại: ', 'Sai tên đăng nhập hoặc mật khẩu hoặc tài khoản chưa được kích hoạt!', 'warning');
       }

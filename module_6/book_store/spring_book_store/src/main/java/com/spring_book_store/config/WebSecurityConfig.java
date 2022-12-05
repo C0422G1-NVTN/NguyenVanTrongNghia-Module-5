@@ -56,4 +56,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
         http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
     }
+
+    public static void main(String[] args) {
+        System.out.println(new BCryptPasswordEncoder(12).encode("123"));
+    }
 }

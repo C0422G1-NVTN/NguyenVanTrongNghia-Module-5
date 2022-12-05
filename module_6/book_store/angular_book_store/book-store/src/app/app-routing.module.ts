@@ -9,7 +9,7 @@ import {LoginComponent} from "./login/login.component";
 const routes: Routes = [
   {path: '', component:HomeComponent},
   {path: 'cart', component:CartComponent},
-  {path: 'details', component:CardDetailComponent},
+  {path: 'detail/:id', component:CardDetailComponent},
   {path: 'login', component:LoginComponent}
 ];
 

@@ -1,0 +1,72 @@
+<body class="navbar navbar-expand-lg wrapper ">
+  <div class="container-fluid" >
+    <a class="navbar-brand" href="#">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/006/115/725/small/black-and-white-open-book-logo-illustration-on-white-background-free-vector.jpg" alt="" width="60" height="54">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link  " aria-current="page" href="#">Trang chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Sách bán chạy</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Thể loại
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Cổ điển</a></li>
+            <li><a class="dropdown-item" href="#">Văn học</a></li>
+            <li><a class="dropdown-item" href="#">Thiếu nhi</a></li>
+            <li><a class="dropdown-item" href="#">Chuyên ngành</a></li>
+            <li><a class="dropdown-item" href="#">Tình cảm</a></li>
+            <li><a class="dropdown-item" href="#">Kiếm hiệp</a></li>
+            <li><a class="dropdown-item" href="#">Tiên hiệp</a></li>
+            <li><a class="dropdown-item" href="#">Khoa học</a></li>
+            <li><a class="dropdown-item" href="#">Lịch sử</a></li>
+            <li><a class="dropdown-item" href="#">Toán học</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+
+      <div class="dropdown" *ngIf="!isLoggedIn">
+        <a class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="text-light">Chưa đăng nhập</span><i class="fa fa-user text-light"></i>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li class = "dropdow-bg"><a class="dropdown-item" href="#">Đăng ký</a></li>
+          <li class = "dropdow-bg"><a class="dropdown-item" routerLink="/login" href="#">Đăng nhâp</a></li>
+        </ul>
+      </div>
+      <div class="dropdown" *ngIf="isLoggedIn">
+        <a class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+          Tài khoản:<span style="font-weight: bold;margin: 0 5px">{{username}}</span><i class="fa fa-user"></i>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+          <li class = "dropdow-bg"><a class="dropdown-item" href="#"><i class="fa-sharp fa-solid fa-barcode m-1"></i>Thông tin cá nhân</a></li>
+          <li class = "dropdow-bg"><a class="dropdown-item" href="#"><i class="fa-brands fa-searchengin me-1"></i> Lịch sử đặt hàng</a></li>
+          <li class = "dropdow-bg" *ngIf="this.role.includes('ROLE_ADMIN')"><a class="dropdown-item" href="#"><i class="fa-solid fa-list me-1"></i>Quản lý danh sách</a></li>
+          <li class = "dropdow-bg"><a class="dropdown-item" (click)="logOut()"><i class="fa-solid fa-right-from-bracket me-1"></i>Đăng xuất</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</body>

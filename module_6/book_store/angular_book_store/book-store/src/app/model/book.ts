@@ -15,5 +15,5 @@ export interface Book {
   price?: string;
   releaseDate?: string;
   author?: Author;
-  categories?:Category;
+  category?:Category;
 }

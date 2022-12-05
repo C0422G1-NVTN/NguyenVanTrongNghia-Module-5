@@ -28,6 +28,8 @@ public class Book {
 
     private Double height;
 
+    private Double price;
+
     @Column(columnDefinition = "text")
     private String imageUrl;
 

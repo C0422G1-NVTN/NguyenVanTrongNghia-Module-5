@@ -16,6 +16,14 @@ export class BookService {
               private tokenStorageService: TokenStorageService) { }
 
   findByAllAndSearchTitleBook(name: string, page: number): Observable<any> {
-    return this.httpClient.get<Book[]>(SERVICE_URL + "/api/public/user/list?name=" + name + "&page=" + page, this.auth.getToken());
+    return this.httpClient.get<Book[]>(SERVICE_URL + "/api/public/book?page=" + page + "&bookTitle=" + name, this.auth.getToken());
+  }
+
+  findAllAndSortBook(page:number): Observable<any>{
+    return this.httpClient.get<Book[]>(SERVICE_URL + "/api/public/sortReleaseDate/list?page=" + page, this.auth.getToken());
+  }
+
+  findBookById(id: number): Observable<any> {
+    return this.httpClient.get("http://localhost:8080/api/public/detail/" + id, this.auth.getToken());
   }
 }
